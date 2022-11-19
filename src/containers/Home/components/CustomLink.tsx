@@ -11,11 +11,7 @@ interface CustomLinkProp {
 
 const CustomLink = ({ type, href }: CustomLinkProp) => {
   return (
-    <S.Wrapper
-      onClick={() => {
-        window.open(href);
-      }}
-    >
+    <S.Wrapper href={href} target="_blank" rel="noopener noreferrer">
       <Image
         alt=""
         width={16}
@@ -24,7 +20,7 @@ const CustomLink = ({ type, href }: CustomLinkProp) => {
         src={type === "github" ? GithubImage : LinkIcon}
       />
 
-      <GeneralS.P style={{ whiteSpace: "nowrap", fontSize: 13 }}>{href}</GeneralS.P>
+      <S.P>{href}</S.P>
     </S.Wrapper>
   );
 };

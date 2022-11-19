@@ -8,8 +8,8 @@ const ProjectSection = () => {
     <SectionContainer title="이런 프로젝트를 진행했습니다">
       <Experience
         title="3D 자기소개 웹사이트"
-        description="3D 토이샵"
-        usedStacks="Next.js, react-three-fiber, Three.js, Styled-Components, Blender"
+        description="3D 장난감 가게"
+        usedStacks="Next.js, React-three-fiber, Three.js, Styled-Components, Blender"
         duration="2022.10"
       >
         <GeneralS.P>

@@ -1,12 +1,14 @@
 import styled from "styled-components";
+import * as GeneralS from "../General.style";
 
-export const Wrapper = styled.button`
+export const Wrapper = styled.a`
   text-decoration: underline;
   display: flex;
   width: min-content;
   cursor: pointer;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 
   position: relative;
   padding: 5px;
@@ -34,4 +36,12 @@ export const Wrapper = styled.button`
       transform: scaleX(1);
     }
   }
+`;
+
+export const P = styled(GeneralS.P)`
+  white-space: nowrap;
+  font-size: 13px;
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;

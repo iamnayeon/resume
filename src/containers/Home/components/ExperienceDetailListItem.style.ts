@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import * as GeneralS from "../General.style";
 
-export const Wrapper = styled.li`
-  padding-left: 15px;
+export const Wrapper = styled(GeneralS.ListItem)`
+  margin-left: 15px;
   :not(:last-child) {
     margin-bottom: 25px;
   }
 `;
 
-export const Title = styled(GeneralS.ListItem)`
+export const Title = styled.p`
   font-weight: 700;
   font-size: var(--font-size-subtitle);
 `;

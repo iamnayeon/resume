@@ -63,6 +63,11 @@ export const LinkIcon = styled.a`
   }
 `;
 
+export const Link = styled.a`
+  cursor: pointer;
+  text-decoration: underline;
+`;
+
 export const Main = styled.main`
   max-width: 1024px;
   margin: auto;

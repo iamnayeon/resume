@@ -13,7 +13,7 @@ const ExperienceListItem = ({
 }: React.PropsWithChildren<ExperienceListItemProp>) => {
   return (
     <S.Wrapper>
-      <S.Title>{title}</S.Title>
+      <S.Title style={{ lineHeight: 1.4 }}>{title}</S.Title>
       {duration && <GeneralS.DateText>{duration}</GeneralS.DateText>}
       <GeneralS.P style={{ marginTop: 6 }}>{description}</GeneralS.P>
       {children}

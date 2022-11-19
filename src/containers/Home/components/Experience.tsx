@@ -15,27 +15,29 @@ const Experience = ({
 }: React.PropsWithChildren<ExperienceProp>) => {
   return (
     <S.Wrapper>
-      <GeneralS.Title>{title}</GeneralS.Title>
+      <GeneralS.Title style={{ lineHeight: 1.3 }}>{title}</GeneralS.Title>
       {duration && <GeneralS.DateText>{duration}</GeneralS.DateText>}
       <S.ContentsContainer>
         {usedStacks && description && (
           <S.Table>
-            <S.TR>
-              <S.TH>
-                <GeneralS.lightP>한줄 소개</GeneralS.lightP>
-              </S.TH>
-              <S.TD>
-                <GeneralS.P>{description}</GeneralS.P>
-              </S.TD>
-            </S.TR>
-            <S.TR>
-              <S.TH>
-                <GeneralS.lightP>사용 기술</GeneralS.lightP>
-              </S.TH>
-              <S.TD>
-                <GeneralS.P>{usedStacks}</GeneralS.P>
-              </S.TD>
-            </S.TR>
+            <tbody>
+              <S.TR>
+                <S.TH>
+                  <GeneralS.lightP style={{ whiteSpace: "nowrap" }}>간단 소개</GeneralS.lightP>
+                </S.TH>
+                <S.TD>
+                  <GeneralS.P>{description}</GeneralS.P>
+                </S.TD>
+              </S.TR>
+              <S.TR>
+                <S.TH>
+                  <GeneralS.lightP style={{ whiteSpace: "nowrap" }}>사용 기술</GeneralS.lightP>
+                </S.TH>
+                <S.TD>
+                  <GeneralS.P>{usedStacks}</GeneralS.P>
+                </S.TD>
+              </S.TR>
+            </tbody>
           </S.Table>
         )}
         {children}
