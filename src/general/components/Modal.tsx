@@ -11,7 +11,6 @@ const Modal = ({
   const { isOpened, setIsOpened } = useContainer(ModalContext);
 
   if (isOpened) {
-    console.log(1);
     return (
       <Portal uniqId={uniqId}>
         <S.Backdrop onClick={() => setIsOpened(false)}>
