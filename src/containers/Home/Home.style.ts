@@ -12,8 +12,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Nav = styled.nav`
-  position: fixed;
-  top: 0;
+  // position: fixed;
+  // top: 0;
   z-index: 1;
   height: 48px;
   padding: 6px 14px;
