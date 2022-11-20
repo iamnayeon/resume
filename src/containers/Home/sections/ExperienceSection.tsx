@@ -1,12 +1,10 @@
-import SectionContainer from "../components/SectionContainer";
-import * as GeneralS from "../General.style";
 import * as S from "./ExperienceSection.style";
 import Experience from "../components/Experience";
 import ExperienceDetailListItem from "../components/ExperienceDetailListItem";
 import CustomLink from "../components/CustomLink";
 const ExperienceSection = () => {
   return (
-    <SectionContainer title="이런 업무에 대한 경험이 있습니다">
+    <>
       <Experience
         title="[프로덕트] 비프로 데이터 관리용 웹 애플리케이션"
         description="축구 영상, 시각화된 경기 분석 데이터 등 유저가 확인할 수 있는 모든 데이터가 모여있는 웹 애플리케이션"
@@ -89,7 +87,7 @@ const ExperienceSection = () => {
           </ExperienceDetailListItem>
         </S.UL>
       </Experience>
-    </SectionContainer>
+    </>
   );
 };
 

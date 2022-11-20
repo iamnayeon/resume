@@ -1,11 +1,10 @@
-import SectionContainer from "../components/SectionContainer";
 import * as GeneralS from "../General.style";
 import Experience from "../components/Experience";
 import CustomLink from "../components/CustomLink";
 
 const ProjectSection = () => {
   return (
-    <SectionContainer title="이런 프로젝트를 진행했습니다">
+    <>
       <Experience
         title="3D 자기소개 웹사이트"
         description="3D 장난감 가게"
@@ -32,7 +31,7 @@ const ProjectSection = () => {
         </GeneralS.P>
         <CustomLink type="github" href="https://github.com/iamnayeon/goldenpass-platform" />
       </Experience>
-    </SectionContainer>
+    </>
   );
 };
 
