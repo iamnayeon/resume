@@ -6,12 +6,13 @@ import ProfileImage from "./assets/apple-icon-57x57.png";
 import EmailImage from "./assets/email_icon.svg";
 import GithubImage from "./assets/github_icon.svg";
 import LinkedinImage from "./assets/linkedin_icon.svg";
-
+import { useRef } from "react";
 import SkillSection from "./sections/SkillSection";
 import CareerSection from "./sections/CareerSection";
 import ProjectSection from "./sections/ProjectSection";
 import ExperienceSection from "./sections/ExperienceSection";
 import EducationSection from "./sections/EducationSection";
+import axios from "axios";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
       <Head {...defaultHeadProps} />
 
       <S.Wrapper>
-        <S.Header>
+        <S.Nav>
           <S.HomeButtonWrapper>
             <Image
               src={ProfileImage}
@@ -49,7 +50,7 @@ const Home = () => {
               <Image src={LinkedinImage} alt="" fill />
             </S.LinkIcon>
           </div>
-        </S.Header>
+        </S.Nav>
 
         <S.Main>
           <S.MainHead>
@@ -94,8 +95,19 @@ const Home = () => {
         </S.Main>
         <S.Footer>
           <GeneralS.P>
-            *본 이력서는 <S.Link>이곳</S.Link>에 웹 페이지로도 구현이 되어있습니다. 코드는{" "}
-            <S.Link>여기서</S.Link> 확인하실 수 있습니다.
+            *본 이력서는{" "}
+            <S.Link href="https://nayeoncv.vercel.app" target="_blank" rel="noopener noreferrer">
+              이곳
+            </S.Link>
+            에 웹 페이지로도 구현이 되어있습니다. 코드는{" "}
+            <S.Link
+              href="https://github.com/iamnayeon/resume"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              여기서
+            </S.Link>{" "}
+            확인하실 수 있습니다.
           </GeneralS.P>
         </S.Footer>
       </S.Wrapper>

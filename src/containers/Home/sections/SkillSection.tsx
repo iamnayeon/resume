@@ -12,7 +12,7 @@ const SkillSection = () => {
         </GeneralS.ListItem>
         <GeneralS.ListItem>
           <GeneralS.PointText>HTML5</GeneralS.PointText>를 이용한 시맨틱 마크업과{" "}
-          <GeneralS.PointText>CSS3/SASS</GeneralS.PointText>를 이용한 스타일 개발에 능숙합니다.
+          <GeneralS.PointText>CSS3/SCSS</GeneralS.PointText>를 이용한 스타일 개발에 능숙합니다.
         </GeneralS.ListItem>
         <GeneralS.ListItem>
           JS 기반 프레임워크 중 하나인 <GeneralS.PointText>React</GeneralS.PointText>로 생성된 총

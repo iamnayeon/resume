@@ -2,23 +2,6 @@ import styled from "styled-components";
 import * as GeneralS from "./General.style";
 
 export const Wrapper = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-
-  ::-webkit-scrollbar {
-    background-color: transparent;
-    width: 6px;
-    border-left: 1px solid var(--color-line-gray);
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #9fa0a8;
-    border-radius: 8px;
-  }
-
   & ::selection {
     background-color: #e5e8eb;
   }
@@ -28,7 +11,7 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Header = styled.header`
+export const Nav = styled.nav`
   position: fixed;
   top: 0;
   z-index: 1;

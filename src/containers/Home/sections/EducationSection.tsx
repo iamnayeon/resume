@@ -5,7 +5,7 @@ import Experience from "../components/Experience";
 const EducationSection = () => {
   return (
     <SectionContainer title="이런 교육을 받았습니다">
-      <Experience title="코드스테이츠" duration="2021.07">
+      <Experience title="코드스테이츠" duration="2020.03 ~ 2020.08">
         <GeneralS.P>
           Advance software engineering, Immersive program (소프트웨어 엔지니어 육성 부트캠프)
         </GeneralS.P>
