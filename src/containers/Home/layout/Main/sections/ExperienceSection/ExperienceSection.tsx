@@ -1,6 +1,6 @@
 import * as S from "./ExperienceSection.style";
 import Experience from "../../../../components/Experience/Experience";
-import ExperienceDetailListItem from "../../../../components/ExperienceDetailListItem/ExperienceDetailListItem";
+import ExperienceDetailItem from "../../../../components/ExperienceDetailItem/ExperienceDetailItem";
 import CustomLink from "../../../../components/CustomLink/CustomLink";
 import { DataBaseType } from "containers/Home/types/type";
 
@@ -115,7 +115,7 @@ const ExperienceSection = () => {
         >
           <S.UL>
             {experienceItem.details.map((detail) => (
-              <ExperienceDetailListItem
+              <ExperienceDetailItem
                 key={detail.title}
                 title={detail.title}
                 duration={detail.duration}
@@ -125,7 +125,7 @@ const ExperienceSection = () => {
                   detail.links.map(({ type, href }) => (
                     <CustomLink key={href} href={href} type={type} />
                   ))}
-              </ExperienceDetailListItem>
+              </ExperienceDetailItem>
             ))}
           </S.UL>
         </Experience>
