@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   position: fixed;
+  z-index: 1;
   right: 16px;
   bottom: 16px;
   width: 48px;
