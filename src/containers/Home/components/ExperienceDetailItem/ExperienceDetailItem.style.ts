@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import * as GeneralS from "../../style/General.style";
+import * as GeneralS from "../../style/general.style";
 
 export const Wrapper = styled(GeneralS.ListItem)`
   margin-left: 15px;

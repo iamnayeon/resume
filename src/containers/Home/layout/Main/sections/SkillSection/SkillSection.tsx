@@ -1,5 +1,5 @@
 import * as S from "./SkillSection.style";
-import * as GeneralS from "../../../../style/General.style";
+import * as GeneralS from "../../../../style/general.style";
 const SkillSection = () => {
   return (
     <S.ListContainer>

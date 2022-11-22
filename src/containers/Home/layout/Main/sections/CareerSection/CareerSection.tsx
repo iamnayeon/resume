@@ -1,4 +1,4 @@
-import * as GeneralS from "../../../../style/General.style";
+import * as GeneralS from "../../../../style/general.style";
 import { Fragment } from "react";
 import { DataBaseType } from "../../../../types/type";
 

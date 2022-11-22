@@ -1,6 +1,6 @@
 import { Section } from "containers/Home/types/type";
 import * as S from "./Main.style";
-import * as GeneralS from "../../style/General.style";
+import * as GeneralS from "../../style/general.style";
 import SectionContainer from "containers/Home/components/SectionContainer/SectionContainer";
 
 import SkillSection from "./sections/SkillSection/SkillSection";
