@@ -5,7 +5,7 @@ import ModalContext from "../contexts/ModalContext";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ModalContext.Provider>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </ModalContext.Provider>
   );
 }
