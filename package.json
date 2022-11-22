@@ -6,22 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "server": "nodemon src/server.js localhost 3080"
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
-    "axios": "^1.1.3",
-    "cors": "^2.8.5",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
-    "express": "^4.18.2",
     "install": "^0.13.0",
     "next": "13.0.3",
     "npm": "^9.1.2",
-    "pdfcrowd": "^5.9.0",
     "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -32,7 +27,6 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
-    "babel-plugin-styled-components": "^2.0.7",
-    "nodemon": "^2.0.20"
+    "babel-plugin-styled-components": "^2.0.7"
   }
 }
