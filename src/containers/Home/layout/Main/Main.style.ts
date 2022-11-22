@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import * as GeneralS from "../../style/general.style";
+import * as GeneralS from "../../style/General.style";
 
 export const Wrapper = styled.main`
   max-width: 1024px;

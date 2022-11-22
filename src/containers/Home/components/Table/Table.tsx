@@ -1,5 +1,5 @@
 import * as S from "./Table.style";
-import * as GeneralS from "../../style/general.style";
+import * as GeneralS from "../../style/General.style";
 
 interface ITableRow {
   headCell: string;

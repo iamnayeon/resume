@@ -1,4 +1,4 @@
-import * as GeneralS from "../../../../style/general.style";
+import * as GeneralS from "../../../../style/General.style";
 import Experience from "../../../../components/Experience/Experience";
 import CustomLink from "../../../../components/CustomLink/CustomLink";
 import { DataBaseType } from "../../../../types/type";

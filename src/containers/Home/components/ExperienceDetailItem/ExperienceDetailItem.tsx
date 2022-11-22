@@ -1,4 +1,4 @@
-import * as GeneralS from "../../style/general.style";
+import * as GeneralS from "../../style/General.style";
 import * as S from "./ExperienceDetailItem.style";
 interface ExperienceListItemProp {
   title: string;
