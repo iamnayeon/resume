@@ -1,8 +1,8 @@
-import ExitIcon from "../../assets/x_icon.svg";
+import ExitIcon from "../../../assets/x_icon.svg";
 import Image from "next/image";
 import { useContainer } from "unstated-next";
 import ModalContext from "contexts/ModalContext";
-import Portal from "general/Portal";
+import Portal from "general/Portal/Portal";
 import * as S from "./Modal.style";
 const Modal = ({
   children,

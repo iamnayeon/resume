@@ -1,10 +1,10 @@
 import * as S from "./SkillSection.style";
-import * as GeneralS from "../General.style";
+import * as GeneralS from "../../../../style/General.style";
 const SkillSection = () => {
   return (
     <S.ListContainer>
       <GeneralS.ListItem>
-        <GeneralS.PointText>Javascript ES6+</GeneralS.PointText> 로 개발 해오고 있으며 동적 언어라는
+        <GeneralS.PointText>JavaScript ES6+</GeneralS.PointText> 로 개발 해오고 있으며 동적 언어라는
         단점을 보완하기 위해 <GeneralS.PointText>TypeScript</GeneralS.PointText>를 사용합니다.
       </GeneralS.ListItem>
       <GeneralS.ListItem>

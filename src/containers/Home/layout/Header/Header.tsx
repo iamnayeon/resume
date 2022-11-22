@@ -1,10 +1,10 @@
-import * as S from "./Nav.style";
+import * as S from "./Header.style";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import ProfileImage from "../assets/apple-icon-57x57.png";
-import EmailImage from "../assets/email_icon.svg";
-import GithubImage from "../assets/github_icon.svg";
-import LinkedinImage from "../assets/linkedin_icon.svg";
+import ProfileImage from "../../assets/apple-icon-57x57.png";
+import EmailImage from "../../assets/email_icon.svg";
+import GithubImage from "../../assets/github_icon.svg";
+import LinkedinImage from "../../assets/linkedin_icon.svg";
 
 const Nav = () => {
   const navRef = useRef<HTMLElement>(null);

@@ -1,16 +1,15 @@
 import Image from "next/image";
-import hamburgerIcon from "../../../assets/hamburger_list_icon.svg";
-import Modal from "../../../general/components/Modal";
+import hamburgerIcon from "../../../../assets/hamburger_list_icon.svg";
+import Modal from "../../../../general/components/Modal/Modal";
 import ModalContext from "contexts/ModalContext";
 import { useContainer } from "unstated-next";
-import * as S from "./ListButton.style";
-import { Section, SectionDetail } from "../types/type";
+import * as S from "./SectionNavButton.style";
+import { Section } from "../../types/type";
+import MainSectionContext from "containers/Home/contexts/MainSectionContext";
 
-interface ListButtonProp {
-  sectionDetailMap: SectionDetail;
-}
-const ListButton = ({ sectionDetailMap }: ListButtonProp) => {
+const SectionNavButton = () => {
   const { setIsOpened } = useContainer(ModalContext);
+  const { sectionDetailMap } = useContainer(MainSectionContext);
   return (
     <>
       <S.Button onClick={() => setIsOpened(true)}>
@@ -40,4 +39,4 @@ const ListButton = ({ sectionDetailMap }: ListButtonProp) => {
   );
 };
 
-export default ListButton;
+export default SectionNavButton;

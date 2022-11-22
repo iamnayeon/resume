@@ -1,12 +1,12 @@
 import Image from "next/image";
-import * as GeneralS from "../General.style";
-import * as S from "./CustomLink.style";
-import GithubImage from "../assets/github_icon.svg";
-import LinkIcon from "../assets/link_icon.svg";
 
-interface CustomLinkProp {
-  type?: "github";
-  href: string;
+import * as S from "./CustomLink.style";
+import GithubImage from "../../assets/github_icon.svg";
+import LinkIcon from "../../assets/link_icon.svg";
+import { ILink } from "../../types/type";
+
+interface CustomLinkProp extends ILink {
+  //
 }
 
 const CustomLink = ({ type, href }: CustomLinkProp) => {
