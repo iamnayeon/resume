@@ -5,7 +5,7 @@ import { useRef } from "react";
 export default createContainer(() => {
   const sectionDetailMap: SectionDetail = {
     [Section.BasicInfo]: {
-      name: "기본 정보",
+      name: "자기소개",
       ref: useRef<HTMLElement>(null),
     },
     [Section.Skill]: {
