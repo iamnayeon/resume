@@ -12,8 +12,8 @@ const SkillSection = () => {
         <GeneralS.PointText>CSS3/SCSS</GeneralS.PointText>를 이용한 스타일 개발에 능숙합니다.
       </GeneralS.ListItem>
       <GeneralS.ListItem>
-        JS 기반 프레임워크 중 하나인 <GeneralS.PointText>React</GeneralS.PointText>로 생성된 총
-        4개의 웹 프로덕트를 2년간 유지보수/개발/배포/운영에 참여한 경험이 있습니다.
+        JS 기반 라이브러리인 <GeneralS.PointText>React</GeneralS.PointText>로 생성된 총 4개의 웹
+        프로덕트를 2년간 유지보수/개발/배포/운영에 참여한 경험이 있습니다.
       </GeneralS.ListItem>
       <GeneralS.ListItem>
         불편을 겪고 있던 수동 배포 프로세스를 협업에 더 편한 환경으로 개선하기 위해 GitHub
