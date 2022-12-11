@@ -27,7 +27,7 @@ const experienceItemList: IExperienceItemList[] = [
           "선수 간 역량을 비교, 분석해볼 수 있도록 선수들의 분석 데이터를 표와 그래프로 시각화하여 제공하는 Player Benchmark 기능 개발",
         duration: "2020.12 ~ 2021.04",
         description:
-          "분석된 축구 데이터를 팀 코치들이 선수 역량 강화를 위하여 활용할 수 있도록 돕는 하나의 솔루션으로 선수들의 데이터 수치를 비교해서 확인해볼 수 있는 기능 개발 , SVG 활용해서 그래프를 구현, 해당 기능으로 독일 2부 리그에 있는 팀 유치에 기여",
+          "분석된 축구 데이터를 팀 코치들이 선수 역량 강화를 위하여 활용할 수 있도록 돕는 하나의 솔루션으로 선수들의 데이터 수치를 비교해서 확인해볼 수 있는 기능 개발, 해당 기능으로 독일 2부 리그에 있는 팀 유치에 기여",
         links: [
           {
             href: "https://bepro11.medium.com/the-bepro-player-benchmark-tool-436d65e46de0",
